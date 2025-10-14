@@ -31,6 +31,8 @@ p {
 ul {
 	font-family: arial;
 	font-size: 13;
+	color: white;
+  	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 dl {
@@ -61,6 +63,7 @@ img {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* sombra */
   margin: 10px;        /* separación alrededor */
 }
+
 
 
 
