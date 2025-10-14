@@ -8,15 +8,17 @@ body {
 }
 
 h1 {
-	color: white;
+	color: orange;
 	text-align: center;
 	font-family: arial;
+	font-size: 20;
 }
 
 h2 {
 	color: green;
 	text-align: left;
 	font-family: arial;
+	font-size: 15;
 }
 
 p {
@@ -57,6 +59,7 @@ img {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* sombra */
   margin: 10px;        /* separación alrededor */
 }
+
 
 
 
