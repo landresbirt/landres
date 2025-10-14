@@ -35,9 +35,12 @@ ol {
 }
 
 table {
-	font-family: arial;
-	font-size: 13;
-
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
 }
 
 img {
@@ -48,3 +51,4 @@ img {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* sombra */
   margin: 10px;        /* separación alrededor */
 }
+
