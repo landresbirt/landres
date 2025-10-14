@@ -1,5 +1,10 @@
 body {
-	background-color: tan;
+  background-image: url("imagenes/fondo.jpg"); /* Ruta de la imagen */
+  background-size: cover;      /* Ajusta la imagen para cubrir toda la pantalla */
+  background-repeat: no-repeat;/* No repetir la imagen */
+  background-position: center; /* Centrar la imagen */
+  background-attachment: fixed;/* Fondo fijo al hacer scroll */
+  font-family: Arial, sans-serif;
 }
 
 h1 {
@@ -52,11 +57,5 @@ img {
   margin: 10px;        /* separación alrededor */
 }
 
-body {
-  background-image: url("imagenes/fondo.jpg"); /* Ruta de la imagen */
-  background-size: cover;      /* Ajusta la imagen para cubrir toda la pantalla */
-  background-repeat: no-repeat;/* No repetir la imagen */
-  background-position: center; /* Centrar la imagen */
-  background-attachment: fixed;/* Fondo fijo al hacer scroll */
-  font-family: Arial, sans-serif;
-}
+
+
