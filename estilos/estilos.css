@@ -37,4 +37,14 @@ ol {
 table {
 	font-family: arial;
 	font-size: 13;
+
+}
+
+img {
+  width: 300px;        /* ancho de la imagen */
+  height: auto;        /* mantiene la proporción */
+  border-radius: 10px; /* esquinas redondeadas */
+  border: 2px solid #ccc; /* borde gris */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* sombra */
+  margin: 10px;        /* separación alrededor */
 }
