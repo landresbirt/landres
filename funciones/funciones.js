@@ -23,7 +23,7 @@ function cambiarColorFondo() {
 function saludarUsuario() {
     const nombre = prompt("¿Cómo te llamas?");
     if (nombre) {
-        alert("¡Hola, " + nombre + "! Bienvenido a la web de turismo.");
+        alert("¡Hola, " + nombre + "! Bienvenido a la web de la feria de turismo.");
     } else {
         alert("No escribiste tu nombre 😅");
     }
