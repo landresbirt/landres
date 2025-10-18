@@ -1,22 +1,25 @@
-<!-- Este va a ser el fichero llamado funciones.js -->
+<!-- Aquí es donde va la ventana de alerta / entradas -->
 
   function mostrarAlerta() {
     alert("¡Rellena el formulario si no te quieres quedar sin plaza!");
 }
 
-// 2️⃣ Muestra la fecha actual
+<!-- Aquí es donde voy a mostras la fecha actual / programa -->
+  
 function mostrarFecha() {
     const fecha = new Date();
     alert("Hoy es: " + fecha.toLocaleDateString());
 }
 
-// 3️⃣ Cambia el color de fondo del cuerpo de la página
+<!-- Aquí es donde voy a cambiar el fondo / expositores -->
+  
 function cambiarColorFondo() {
     document.body.style.backgroundColor = "#f0f8ff"; // color azul claro
     alert("¡Color de fondo cambiado!");
 }
 
-// 4️⃣ Pide el nombre del usuario y lo saluda
+<!-- Aquí es donde voy a poner el saludo personalizado / inicio -->
+  
 function saludarUsuario() {
     const nombre = prompt("¿Cómo te llamas?");
     if (nombre) {
@@ -26,7 +29,8 @@ function saludarUsuario() {
     }
 }
 
-// 5️⃣ Cuenta los caracteres escritos en el campo 'nombre'
+<!-- Aquí es donde va a contar los caráteres / destinos -->
+  
 function contarCaracteres() {
     const campo = document.getElementById("nombre");
     const longitud = campo.value.length;
