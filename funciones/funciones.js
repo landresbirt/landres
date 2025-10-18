@@ -17,6 +17,7 @@ function cambiarColorFondo() {
     document.body.style.backgroundImage = "none"; // elimina la foto
     document.body.style.backgroundColor = "#f0f8ff"; // pone un color nuevo
     alert("¡Fondo cambiado!");
+}
 
 <!-- Aquí es donde voy a poner el saludo personalizado / inicio -->
   
