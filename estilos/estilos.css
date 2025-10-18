@@ -21,6 +21,11 @@ h2 {
 	font-size: 15;
 }
 
+label {
+    color: white;
+    font-weight: bold;
+}
+
 p {
 	font-family: arial;
 	font-size: 13;
@@ -67,6 +72,7 @@ img {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* sombra */
   margin: 10px;        /* separación alrededor */
 }
+
 
 
 
