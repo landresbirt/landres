@@ -35,7 +35,7 @@ function saludarUsuario() {
 function contarCaracteres() {
     const campo = document.getElementById("nombre");
     const longitud = campo.value.length;
-    alert("Tu nombre tiene " + longitud + " caracteres.");
+    alert("Tu destino favorito tiene " + longitud + " caracteres.");
 }
 
 
