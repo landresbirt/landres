@@ -14,9 +14,9 @@ function mostrarFecha() {
 <!-- Aquí es donde voy a cambiar el fondo / expositores -->
   
 function cambiarColorFondo() {
-    document.body.style.backgroundColor = "#f0f8ff"; // color azul claro
-    alert("¡Color de fondo cambiado!");
-}
+    document.body.style.backgroundImage = "none"; // elimina la foto
+    document.body.style.backgroundColor = "#f0f8ff"; // pone un color nuevo
+    alert("¡Fondo cambiado!");
 
 <!-- Aquí es donde voy a poner el saludo personalizado / inicio -->
   
