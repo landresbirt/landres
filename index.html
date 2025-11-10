@@ -1,83 +1,70 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>FERIA DE VIAJES 2025</title>
+<html>
+  <head>
+    <title>FERIA DE VIAJES 2025</title>
 
-  <!-- RSS Feed -->
-  <link rel="alternate" type="application/rss+xml" title="Feed RSS de LandresBirt" href="https://landresbirt.github.io/landres/feed.xml" />
+	  <!-- Aquí es donde voy a poner un script de funciones -->
+	<script src="funciones/funciones.js" defer></script>
 
-  <!-- Estilos CSS -->
-  <link rel="stylesheet" href="estilos/estilos.css">
+	  <!-- Aquí es donde voy a poner el enlace al archivo CSS -->
+	<link rel="stylesheet" href="estilos/estilos.css">
+  </head>
 
-  <!-- Script de funciones -->
-  <script src="funciones/funciones.js" defer></script>
-</head>
-<body>
+  <body>
+    <!-- Aquí es donde voy a poner el menú y los enlaces -->
 
-  <!-- Header con título y RSS -->
-  <header style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background-color: #f5f5f5;">
-    <h1>INICIO</h1>
-    <a href="https://landresbirt.github.io/landres/feed.xml" target="_blank" title="Suscríbete al feed RSS" style="text-decoration: none; color: #ff6600; font-weight: bold; display: inline-flex; align-items: center;">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Feed-icon.svg" alt="RSS" width="20" height="20" style="margin-right: 5px;">
-      Feed RSS
-    </a>
-  </header>
+    <header>
+      <h1>INICIO</h1>
+    </header>
 
-  <!-- Menú de navegación -->
-  <nav>
-    <ul style="list-style: none; display: flex; gap: 15px; padding: 10px; background-color: #eaeaea; margin: 0;">
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="destinos.html">Destinos</a></li>
-      <li><a href="expositores.html">Expositores</a></li>
-      <li><a href="programa.html">Programa</a></li>
-      <li><a href="entradas.html">Entradas</a></li>
-    </ul>
-  </nav>
 
-  <!-- Contenido principal -->
-  <main style="padding: 20px;">
-    <h2>Bienvenidos a la feria de viajes 2025</h2>
-    <p>Feria anual donde agencias, tours y destinos presentan sus novedades para 2026</p>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+		<li><a href="destinos.html">Destinos</a></li>
+        <li><a href="expositores.html">Expositores</a></li>
+        <li><a href="programa.html">Programa</a></li>
+        <li><a href="entradas.html">Entradas</a></li>
+      </ul>
 
-    <hr>
 
-    <!-- Saludo al usuario -->
-    <h2>¿Cómo te llamas?</h2>
-    <button onclick="saludarUsuario()">Saludar usuario</button>
+    <!-- Aquí está el contenido principal de nuestra página -->
 
-    <br><br>
 
-    <img src="imagenes/feria.jpg" alt="Feria" style="max-width: 100%; height: auto;">
+        <h2>Bienvenidos a la feria de viajes 2025</h2>
 
-    <hr>
+        <p>Feria anual donde agencias, tours y destinos presentan sus novedades para 2026	</p>
+<br>		
+<!-- Aquí es donde voy a saludar al ususario -->
+	  	<h2>¿Cómo te llamas?</h2>
+    	<button onclick="saludarUsuario()">Saludar usuario</button>
+<br>
+		
+<img src="imagenes/feria.jpg" alt="Feria">
 
-    <!-- Próximas ferias -->
-    <h2>Próximas ferias de turismo interesantes:</h2>
-    <dl> 
+<br>
+<br>
+	  <!-- Aquí voy a poner enlaces y vínculos -->
+
+   <h2>Próximas ferias de turismo interesantes:</h2>
+   <dl> 
       <dt>IFEMA / Fitur, Madrid 2026</dt>
-      <dd><a href="https://www.ifema.es/fitur" target="_blank">IFEMA / Fitur</a></dd>
+	  <dd><a href="https://www.ifema.es/fitur" target="_blank">IFEMA / Fitur</a></dd>
       <dt>Holiday World Show, Dublín 2026</dt>
       <dd><a href="https://www.holidayworldshow.com/" target="_blank">Holiday World Show</a></dd>
-      <dt>Salon du randonneur, París 2026</dt>
+	  <dt>Salon du randonneur, París 2026</dt>
       <dd><a href="https://www.nsalons.com/salon-randonneur/" target="_blank">Salon du randonneur</a></dd>
-    </dl>
-  </main>
+   </dl>
+<br>	  
+<br>
 
-  <!-- Footer -->
-  <footer style="text-align: center; padding: 15px; background-color: #f5f5f5;">
-    <p>Handmade by Landres© 2025.</p>
-  </footer>
+    <!-- Y aquí está nuestro pie de página principal que se utiliza en todas las páginas de nuestro sitio web -->
 
-</body>
+    <footer>
+     <p>Handmade by landres© 2025.</p>
+    </footer>
+
+  </body>
+
 </html>
-
-
-
-
-
-
-
-
 
 
