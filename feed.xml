@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>LandresBirt - Novedades</title>
+    <title>Novedades de Landres</title>
     <link>https://landresbirt.github.io/landres/</link>
-    <description>Actualizaciones y novedades del portafolio de LandresBirt</description>
+    <description>Actualizaciones y novedades de Landres</description>
     <language>es</language>
     <lastBuildDate>Mon, 10 Nov 2025 12:00:00 +0000</lastBuildDate>
 
@@ -12,20 +12,20 @@
 
     <!-- Novedad 1 -->
     <item>
-      <title>Nuevo proyecto: Sistema de simulación física</title>
-      <link>https://landresbirt.github.io/landres/proyectos/simulador-fisica.html</link>
-      <description>He añadido un nuevo proyecto al portafolio: un sistema de simulación física con visualización interactiva.</description>
+      <title>Nuevo Destino: Honolulu</title>
+      <link>https://landresbirt.github.io/landres/destinos.html</link>
+      <description>He añadido un nuevo proyecto destino: Honolulu, el paraíso de los surfistas.</description>
       <pubDate>Mon, 10 Nov 2025 10:00:00 +0000</pubDate>
-      <guid>https://landresbirt.github.io/landres/proyectos/simulador-fisica.html</guid>
+      <guid>https://landresbirt.github.io/landres/destinos.html</guid>
     </item>
 
     <!-- Novedad 2 -->
     <item>
-      <title>Actualización de la sección "Sobre mí"</title>
-      <link>https://landresbirt.github.io/landres/sobre-mi.html</link>
-      <description>Se ha actualizado la sección "Sobre mí" con nueva información sobre mis proyectos y experiencia profesional.</description>
+      <title>Actualización de las charlas</title>
+      <link>https://landresbirt.github.io/landres/programa.html</link>
+      <description>Se ha actualizado la sección "Programa" con una nueva charla para el sábado.</description>
       <pubDate>Sun, 09 Nov 2025 18:30:00 +0000</pubDate>
-      <guid>https://landresbirt.github.io/landres/sobre-mi.html</guid>
+      <guid>https://landresbirt.github.io/landres/programa.html</guid>
     </item>
 
   </channel>
