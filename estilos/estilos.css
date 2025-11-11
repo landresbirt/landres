@@ -73,6 +73,22 @@ img {
   margin: 10px;        /* separación alrededor */
 }
 
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ff6600;
+  font-weight: bold;
+}
+
+.rss-icon {
+  width: 14px;       /* ancho deseado */
+  height: 14px;      /* alto deseado */
+  vertical-align: middle;
+  margin-right: 5px;
+  flex-shrink: 0;    /* evita que el icono se reduzca o estire con el texto */
+}
+
 
 
 
